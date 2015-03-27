@@ -9,6 +9,8 @@
 #ifndef __PointersAndMe__Comparator__
 #define __PointersAndMe__Comparator__
 
+#define swapPointers(type, a, b) type swap = *(type*)b;*(type*)b = *((type*)a);*(type*)a = swap;
+
 #include <stdio.h>
 #include <string.h>
 
